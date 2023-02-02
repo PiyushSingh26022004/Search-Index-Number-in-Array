@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i,j,k;
+    int l;
+    cout<<"Enter Size of Array ";
+    cin>>i;
+    cout<<"Enter Arrays "<<endl;
+    int n[i];
+    for(int j=0;j<i;j++){
+    cin>>n[j];}
+    cout<<"enter searching number ";
+    cin>>l;
+ for(int j=0;j<i;j++){
+  if(l==n[j])
+  { 
+      cout<<"your array index number is "<<j;
+      return 0;
+  } }
+   
+   cout <<"this number is not exist ";
+    return 0; 
+}
+
